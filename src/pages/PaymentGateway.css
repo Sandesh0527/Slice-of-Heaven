@@ -1,0 +1,92 @@
+.payment-container {
+    max-width: 600px;
+    margin: 50px auto;
+    padding: 20px;
+    background: #f7f7f7;
+    border-radius: 10px;
+    box-shadow: 0 5px 15px rgba(0, 0, 0, 0.1);
+  }
+  
+  .payment-title {
+    text-align: center;
+    font-size: 24px;
+    color: #333;
+    margin-bottom: 20px;
+  }
+  
+  .payment-options {
+    text-align: center;
+  }
+  
+  .payment-methods {
+    display: flex;
+    justify-content: center;
+    gap: 10px;
+  }
+  
+  .payment-method {
+    padding: 10px 20px;
+    border: 1px solid #ddd;
+    border-radius: 5px;
+    cursor: pointer;
+    background: #fff;
+    transition: all 0.3s;
+  }
+  
+  .payment-method.active {
+    border-color: #007bff;
+    background: #007bff;
+    color: #fff;
+  }
+  
+  .payment-method:hover {
+    background: #e9ecef;
+  }
+  
+  .payment-form {
+    margin-top: 20px;
+  }
+  
+  .form-group {
+    margin-bottom: 15px;
+  }
+  
+  .form-group label {
+    display: block;
+    font-size: 14px;
+    color: #555;
+    margin-bottom: 5px;
+  }
+  
+  .form-group input,
+  .form-group select {
+    width: 100%;
+    padding: 10px;
+    border: 1px solid #ddd;
+    border-radius: 5px;
+    font-size: 14px;
+  }
+  
+  .form-row {
+    display: flex;
+    justify-content: space-between;
+    gap: 10px;
+  }
+  
+  .pay-now-btn {
+    width: 100%;
+    padding: 10px;
+    background: #007bff;
+    color: #fff;
+    font-size: 16px;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    margin-top: 20px;
+    transition: background 0.3s;
+  }
+  
+  .pay-now-btn:hover {
+    background: #0056b3;
+  }
+  
